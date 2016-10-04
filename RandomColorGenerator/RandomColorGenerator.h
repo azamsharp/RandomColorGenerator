@@ -10,15 +10,15 @@
 #import <UIKit/UIKit.h>
 
 // create a protocol called RandomColorGeneratorDelegate
-// create a method in protocol randomColor with a single parameter UIColor
-
+// create a method in protocol randomColor with a single parameter UIColor as shown below
 // -(void) randomColor:(UIColor *) color;
-
 
 @interface RandomColorGenerator : NSObject
 {
     
 }
+
+//@property (nonatomic,weak) id<RandomColorGeneratorDelegate> delegate;
 
 -(void) generate; 
 

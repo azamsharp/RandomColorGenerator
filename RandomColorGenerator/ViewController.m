@@ -18,6 +18,11 @@
     [super viewDidLoad];
     
     // create an object of RandomColorGenerator
+    RandomColorGenerator *randomColorGenerator = [[RandomColorGenerator alloc] init];
+    
+    //randomColorGenerator.delegate = self; // uncomment this line when you have created the RandomColorGeneratorDelegate
+    
+    [randomColorGenerator generate];
     
     // Do any additional setup after loading the view, typically from a nib.
 }

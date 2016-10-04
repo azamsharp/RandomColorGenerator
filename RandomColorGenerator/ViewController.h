@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "RandomColorGenerator.h" 
 
-// Hint -> This view controller needs to confirms to the RandomColorGeneratorDelegate
+// Hint -> This view controller needs to conform to the RandomColorGeneratorDelegate
 @interface ViewController : UIViewController
 
 
